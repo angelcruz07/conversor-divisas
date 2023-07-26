@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Quicksand:wght@400;500;600;700&family=Raleway:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Conversor de divisas</title>
+</head>
+<body>
+    <div class="container__divisas">
+   
+        <h1 class="title">Conversor de divisas</h1>
+
+        <form class="form__divisas" id="formDivisas">
+
+            <div class="divisa">
+                
+            <label class="dollar" for="">Ingresa una cantidad en Dolares $</label>
+            <input class="cantidad_ingresada" id="dollar"type="number" placeholder="Ingresa una cantiddad" required>
+            <p class="error" id="error"></p>
+
+            <div class="container__button">
+             <input type="submit" value="Convertir" class="convertir" id="convertir">
+          
+           </div>
+
+            <div class="peso">
+             <p class="peso_mex" id="peso_mex">Peso Mexicano</p>
+             <p class="cantidad" id="cantidad_pesos"></p>
+            </div>
+
+            <div class="libras">
+                <p class="libras" id="libras">Libra esterlina</p>
+                <p class="cantidad" id="cantidad_libras"></p>
+            </div>
+            
+            <div class="euro">
+                <p class="euro" id="euro">Euros </p>
+                <p class="cantidad" id="cantidad_euro"></p>
+            </div>
+            </div>
+
+        </form>
+     </div>
+
+        <!-- Codigo JS -->
+        <script src="conversor.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+* { 
+    margin:0;
+    padding:0; 
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+  background:#1D1D1D;
+  color:#fff;
+}
+
+/*Estilo principal */
+.container__divisas { 
+    background-color:#323236 ;
+    width: 300px;
+    margin: 30px auto 0px auto; 
+    border-radius: 20px;
+    padding:20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* tutulo */
+.title { 
+    color:#fd0c49;
+    text-align: center;
+}
+
+/* Formulario */
+.form__divisas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
+}
+
+.dollar { 
+    display: block;
+    text-align: center;
+    margin-top:30px;
+}
+
+/* Input de cantidad */
+.cantidad_ingresada{
+    display: block;
+    padding:15px 15px;
+    margin:30px auto 0px auto;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Boton de conversion  */
+.container__button { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.convertir{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fd0c49;
+    color: #fff;
+    padding:10px 10px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+/* Cantidad de la divisas convertidas */
+/* .peso_mex , .libras, .euro{
+    
+    display: inline;
+   line-height: 30px;
+
+}
+*/
+ .cantidad {
+display: inline;
+padding: 20px;
+color:#008000;
+} 
+
+/* Mensjae de error  */
+.error{ 
+    color:#fd0c49;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
